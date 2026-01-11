@@ -2,15 +2,10 @@ using UnityEngine;
 
 public class ObjectHit : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void OnCollisionEnter(Collision other)
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GetComponent<MeshRenderer>().material.color = Color.skyBlue;
+        // Debug.Log("Something hit me!");
     }
 }
