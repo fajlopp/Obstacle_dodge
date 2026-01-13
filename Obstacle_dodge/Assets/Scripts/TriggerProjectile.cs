@@ -8,7 +8,6 @@ public class TriggerProjectile : MonoBehaviour
     [SerializeField] GameObject projectile3;
     [SerializeField] GameObject projectile4;
     [SerializeField] GameObject projectile5;
-    [SerializeField] GameObject projectile6;
 
 
     void OnTriggerEnter(Collider other)
@@ -21,7 +20,6 @@ public class TriggerProjectile : MonoBehaviour
             projectile3.SetActive(true);
             projectile4.SetActive(true);
             projectile5.SetActive(true);
-            projectile6.SetActive(true);
 
         }
     }

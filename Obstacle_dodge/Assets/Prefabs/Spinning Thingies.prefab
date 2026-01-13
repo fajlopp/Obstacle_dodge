@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1869088521547366591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6884546072136849188}
+  m_Layer: 0
+  m_Name: Spinning Thingies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6884546072136849188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869088521547366591}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.08536, y: 9.04239, z: -109.36941}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1237225885310245119}
+  - {fileID: 4532089286127460503}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2189936781900032333
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6884546072136849188}
+    m_Modifications:
+    - target: {fileID: 1103300017728483762, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.114641
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103300017728483762, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.022389
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103300017728483762, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6305923
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103300017728483762, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103300017728483762, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103300017728483762, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103300017728483762, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103300017728483762, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103300017728483762, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103300017728483762, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6104624251941067934, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+      propertyPath: m_Name
+      value: Sphere
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+--- !u!4 &1237225885310245119 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1103300017728483762, guid: 3995ed061015df2408b0d83b96af2549, type: 3}
+  m_PrefabInstance: {fileID: 2189936781900032333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4497441602271186405
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6884546072136849188}
+    m_Modifications:
+    - target: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 26.23168
+      objectReference: {fileID: 0}
+    - target: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.39464
+      objectReference: {fileID: 0}
+    - target: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.72239
+      objectReference: {fileID: 0}
+    - target: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.4605942
+      objectReference: {fileID: 0}
+    - target: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049748884504494126, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+      propertyPath: m_Name
+      value: Spinning Thing
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+--- !u!4 &4532089286127460503 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 40295445859872114, guid: 5c3bcf208d78bf34aacea18cf5a8601a, type: 3}
+  m_PrefabInstance: {fileID: 4497441602271186405}
+  m_PrefabAsset: {fileID: 0}
